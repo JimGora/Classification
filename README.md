@@ -24,7 +24,7 @@ Cell classification is a crucial task in the field of cancer diagnosis. This pro
 ## Repository Structure
 
 - `data/`: Contains the training, validation and testing data sets.
-- `notebooks/`: Python scripts for data and model manipulation.
+- `scripts/`: Python scripts for data and model manipulation.
 - `src/`: Project source code, including the training and evaluation script.
 - `saved_models/`: Directory to store the trained models.
 
