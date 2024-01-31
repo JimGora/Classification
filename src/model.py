@@ -27,12 +27,7 @@ img_size = (512, 512)
 num_classes = 4
 
 
-train_datagen = ImageDataGenerator(
-    rescale=1./255,
-    shear_range=0.2,
-    zoom_range=0.2,
-    horizontal_flip=True
-)
+train_datagen = ImageDataGenerator(rescale=1./255)
 
 validation_datagen = ImageDataGenerator(rescale=1./255)
 
