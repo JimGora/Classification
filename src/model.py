@@ -4,11 +4,11 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.image import load_img
-
-!wget -O data.zip https://github.com/JimGora/Classification/releases/download/Histo/Histo.zip
+                  
+!wget -O data.zip https://github.com/JimGora/Classification/releases/download/Histopathology/Histopathology.zip
 !unzip data.zip
 
-path = './Histo/train/0'
+path = './Histopatology/train/0'
 name = '535943_1-IMG006x013-0.JPG'
 fullname = f'{path}/{name}'
 load_img(fullname)
@@ -20,10 +20,10 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.optimizers import Adam
 
-data_dir = './Histo'
+data_dir = './Histopatology'
 
 batch_size = 32
-img_size = (224, 224)
+img_size = (512, 512)
 num_classes = 4
 
 
@@ -52,7 +52,7 @@ validation_generator = validation_datagen.flow_from_directory(
 )
 
 
-base_model = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
+base_model = EfficientNetB0(weights='imagenet', include_top=False, input_shape=(512, 512, 3))
 
 model = tf.keras.Sequential([
     base_model,
