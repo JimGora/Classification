@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on classifying cell images into four categories using the EfficientNetB0 model. The Chaoyang dataset utilized is based on the "Hard Sample Aware Noise Robust Learning for Histopathology Image Classification" paper, and the goal is to develop an accurate-simple model for cell classification as Capstone 2 project for ML Zoomcamp 2023.
+This project focuses on classifying cell images into four categories using the MobileNetV2 model. The Chaoyang dataset utilized is based on the "Hard Sample Aware Noise Robust Learning for Histopathology Image Classification" paper, and the goal is to develop an accurate-simple model for cell classification as Capstone 2 project for ML Zoomcamp 2023.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This project focuses on classifying cell images into four categories using the E
 
 ## Introduction
 
-Cell classification is a crucial task in the field of cancer diagnosis. This project employs the state-of-the-art EfficientNetB0 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
+Cell classification is a crucial task in the field of cancer diagnosis. This project employs the state-of-the-art MobileNetV2 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
 
 ## Repository Structure
 
@@ -49,7 +49,7 @@ The dataset is preprocessed and divided into training, validation, and testing s
 
 ## Model Architecture
 
-The model architecture chosen for this project is EfficientNetB0. EfficientNetB0 is a powerful convolutional neural network known for its efficiency and high performance in image classification tasks. The model has been fine-tuned on the cell dataset to optimize its performance for this specific task.
+The model architecture chosen for this project is MobileNetV2. This is a powerful convolutional neural network known for its efficiency and high performance in image classification tasks. The model has been fine-tuned on the cell dataset to optimize its performance for this specific task.
 
 ## Usage
 
@@ -70,8 +70,8 @@ The model architecture chosen for this project is EfficientNetB0. EfficientNetB0
 
 The model was trained and evaluated on the cell classification dataset. The following metrics provide insights into the performance of the model:
 
-- **Accuracy:** 87.56%
-- **Precision:** 93.45%
+- **Accuracy:** 99.58%
+- **Precision:** 74.84%
 
 ## Acknowledgments
 
