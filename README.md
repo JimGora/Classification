@@ -19,7 +19,7 @@ This project focuses on classifying cell images into four categories using the M
 
 ## Introduction
 
-Cell classification is a crucial task in the field of cancer diagnosis. This project employs the state-of-the-art MobileNetV2 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
+Cell classification is a crucial task in the field of cancer diagnosis. This project employs [transfer learning](https://keras.io/guides/transfer_learning/) for pre-trained MobileNetV2 model to accurately categorize cell images, aiming to contribute to advancements in machine learning and patology.
 
 ## Repository Structure
 
