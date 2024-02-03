@@ -77,7 +77,7 @@ The model was trained and evaluated on the cell classification dataset. The foll
 
 This project is the culmination of the ML Zoomcamp 2023 program led by Alexey Grigorev, his expertise and dedication played a crucial role in shaping this project and expanding my understanding of Machine Learning.
 
-Special thanks to Chuang Zhu [email: czhu@bupt.edu.cn] for providing the foundational dataset used in this project.
+Special thanks to Chuang Zhu [email: czhu@bupt.edu.cn] for providing the foundational dataset from the [HSA-NRL](https://github.com/bupt-ai-cz/HSA-NRL?tab=readme-ov-file) repo used in this project.
 
 ## Contact
 For any inquiries or issues, please contact:
