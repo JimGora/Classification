@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project focuses on classifying cell images into four categories using the MobileNetV2 model. The Chaoyang dataset utilized is based on the "Hard Sample Aware Noise Robust Learning for Histopathology Image Classification" paper, and the goal is to develop an accurate-simple model for cell classification as Capstone 2 project for ML Zoomcamp 2023.
+This project focuses on classifying cell images into four categories using the MobileNetV2 model. The Chaoyang dataset utilized is based on the "Hard Sample Aware Noise Robust Learning for Histopathology Image Classification" paper, and the goal is to develop an accurate-simple model for cell classification as Capstone 2 project for [ML Zoomcamp 2023](https://github.com/DataTalksClub/machine-learning-zoomcamp).
 
 ## Table of Contents
 
